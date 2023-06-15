@@ -1,0 +1,50 @@
+navbar{
+    width:700px;   
+    overflow: hidden;
+    overflow: hidden;
+    background-color: grey;
+    font-size: 15px
+}
+
+
+navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+navbar a:visited{
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: white;
+    background-color: darkgrey;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border:1px solid white;
+}
+
+navbar a:link{
+    display: block;
+    width: 120px;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: dimgrey;
+    border:2px solid white;
+}
+
+navbar a:hover{
+    background-color: darkgrey;
+    color: black;
+}
+
+navbar a:active{
+    background-color: white;
+    color: grey;
+}

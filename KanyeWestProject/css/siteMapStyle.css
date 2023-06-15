@@ -1,0 +1,28 @@
+main{
+background-image: url("../images/KanyeBackground.jpg");
+        background-size: 3000px;
+    background-repeat: no-repeat;
+    font-size: 50px;
+}
+
+paragraphs{
+background-color: blue;    
+}
+
+a:link {
+    color: purple; 
+    text-decoration: none;
+}
+
+a:visited{
+   color: green;
+}
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+a:active{
+    color: blue;
+}

@@ -1,0 +1,111 @@
+html{
+    overflow: scroll;
+}
+
+body {
+    background-color: black;
+    font-family: sans-serif; 
+    overflow: hidden;
+}  
+
+h1 { 
+    text-align: center; 
+    font-family: serif;
+    border-bottom: 3px grey; 
+    border-style: none none solid none;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: grey;
+    color: black;
+    overflow: hidden;
+}
+
+.flex-container > div {
+  margin: 10px;
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}   
+
+.KanyeIndex{
+    margin: 1px;
+    padding: 10px;
+    width: 400px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.Logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 250px;
+    height: 150px;
+}
+
+.BANNER {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link {
+    color: white; 
+    text-decoration: none;
+}
+
+a:visited{
+   color: black;
+}
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+a:active{
+    color: blue;
+}
+
+header{    
+    background-color:black;  
+    overflow: hidden;
+}
+
+main{        
+    background-color: dimgrey;
+    color: black;
+}
+
+footer{        
+    background-color: grey;
+    color: black;
+    font-size: small;
+    text-align: center;
+}
+
+#Title{
+    color: white;
+}
+
+.paragraphs{
+    color: black;
+    text-indent: 0px;
+    font-family: "Times New Roman", "Georgia", "serif";
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+} 
